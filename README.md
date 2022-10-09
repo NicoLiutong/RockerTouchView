@@ -32,16 +32,16 @@ RockerTouchView for Android 是一Android遥杆组件，支持两种反馈模式
           
 ```gradle
 allprojects {
-    repositories {
-        //...
-        mavenCentral()
-    }
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
 }
 ```
 
 2. 在Module的 **build.gradle** 里面添加引入依赖项
 ```gradle
-implementation 'com.github.jenly1314:circleprogressview:1.1.3'
+implementation 'com.github.NicoLiutong:RockerTouchView:v1.0.0'
 
 
 ## 示例
