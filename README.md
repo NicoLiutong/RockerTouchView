@@ -95,8 +95,5 @@ implementation 'com.github.jenly1314:circleprogressview:1.1.3'
 如果您喜欢RockerTouchView，或感觉RockerTouchView帮助到了您，可以点右上角“Star”支持一下，谢谢 :smiley:<p>
 您也可以扫描下面的二维码，请作者喝杯咖啡 :coffee:
     <div>
-        <img src="https://jenly1314.github.io/image/pay/wxpay.png" width="280" heght="350">
-        <img src="https://jenly1314.github.io/image/pay/alipay.png" width="280" heght="350">
-        <img src="https://jenly1314.github.io/image/pay/qqpay.png" width="280" heght="350">
-        <img src="https://jenly1314.github.io/image/alipay_red_envelopes.jpg" width="233" heght="350">
+        <img src="https://github.com/NicoLiutong/RockerTouchView/blob/main/pay/red%20package.jpg" width="280" heght="350">
     </div>
