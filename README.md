@@ -13,6 +13,10 @@
 
 RockerTouchView for Android 是一Android遥杆组件，支持两种反馈模式。
 
+<div>
+        <img src="https://github.com/NicoLiutong/RockerTouchView/blob/main/pay/test.jpg" width="280" heght="350">
+    </div>
+
 ## RockerTouchView自定义属性说明
 | 属性 | 值类型 | 默认值 | 说明 |
 | :------| :------ | :------ | :------ |
