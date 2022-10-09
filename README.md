@@ -28,7 +28,7 @@ RockerTouchView for Android 是一Android遥杆组件，支持两种反馈模式
 
 ### Gradle:
 
-1. 在Project的 **build.gradle** 里面添加远程仓库  
+1. 在Project的 **settings.gradle** 里面添加远程仓库  
           
 ```gradle
 allprojects {
