@@ -46,7 +46,7 @@ class RockerTouchView : View {
     private var isDisplayDirection: Boolean = true
     /**  返回类型，0:任意角度 1:固定方向，默认为0  **/
     private var returnMode: Int = ReturnMode.ANGLEN.index
-    /**  水平或垂直方向可忽略的最小偏移距离比例，大圆半径和可偏移距离的比值，只有方向模式会调用  **/
+    /**  水平或垂直方向可忽略的最小偏移距离比例（大圆半径和可偏移距离的比值），只有方向模式会调用  **/
     private var minIgnoreDistanceRation: Int = 5
     /**  定义返回的listener  **/
     private var rockerTouchViewListener: RockerTouchViewListener? = null
