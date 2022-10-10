@@ -1,9 +1,9 @@
 <resources>
     <declare-styleable name="RockerTouchView">
 
-        <attr name="innerCircleColor" format="integer"/>
-        <attr name="outerCircleColor" format="integer"/>
-        <attr name="directionColor" format="integer"/>
+        <attr name="innerCircleColor" format="color"/>
+        <attr name="outerCircleColor" format="color"/>
+        <attr name="directionColor" format="color"/>
         <attr name="isDisplayDirection" format="boolean"/>
         <attr name="returnMode" format="integer"/>
         <attr name="minIgnoreDistanceRation" format="integer"/>
