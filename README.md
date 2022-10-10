@@ -39,7 +39,7 @@ allprojects {
 
 2. 在Module的 **build.gradle** 里面添加引入依赖项
 ```gradle
-implementation 'com.github.NicoLiutong:RockerTouchView:v1.0.2'
+implementation 'com.github.NicoLiutong:RockerTouchView:v1.0.3'
 
 
 ## 示例
