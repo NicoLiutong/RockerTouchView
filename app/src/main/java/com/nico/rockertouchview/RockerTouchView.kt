@@ -170,9 +170,15 @@ class RockerTouchView : View {
 
     override fun onTouchEvent(event: MotionEvent?): Boolean {
         when(event?.action){
-            MotionEvent.ACTION_DOWN -> handleActionDown(event)
+            MotionEvent.ACTION_DOWN -> {
+                rockerTouchViewListener?.onDown(event)
+                handleActionDown(event)
+            }
             MotionEvent.ACTION_MOVE -> handleActionMove(event)
-            MotionEvent.ACTION_UP -> handleActionUp(event)
+            MotionEvent.ACTION_UP -> {
+                rockerTouchViewListener?.onUp(event)
+                handleActionUp(event)
+            }
             else -> null
         }
         return true
@@ -462,6 +468,16 @@ class RockerTouchView : View {
          * @param percent 当前小圆位置到大圆中心距离与大圆半径的比值
          */
         fun onFourChange(direction: Direction,percent: Float)
+
+        /**
+         * 点击返回方法
+         */
+        fun onDown(event: MotionEvent?)
+
+        /**
+         * 点击抬起方法
+         */
+        fun onUp(event: MotionEvent?)
     }
 
     enum class ReturnMode(val index: Int){
