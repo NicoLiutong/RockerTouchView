@@ -1,7 +1,11 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
     id 'org.jetbrains.kotlin.android'
 }
+
+    group = 'com.github.jitpack'
+    version = '1.0'
 
 android {
     compileSdk 32
